@@ -1,0 +1,339 @@
+:root {
+    --main-text-color: #212121;
+    --logo-color: #2196f3;
+    --contacts-color: #757575;
+    --filters-bg-color: #f5f4fa;
+    --footer-section: #2f303a;
+    --contacts-footer-color: rgba(255, 255, 255, 0.6);
+    --second-color: #ffffff;
+    --nav-border: 1px solid #ececec;
+    --border-color-portfolio: #eeeeee;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
+}
+
+.container {
+    margin: auto;
+    width: 1600px;
+}
+
+.header-class {
+    display: flex;
+    align-items: center;
+    border-bottom: var(--nav-border);
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--logo-color);
+}
+
+.filters:hover,
+.filters:focus {
+    background-color: var(--logo-color);
+    color: var(--second-color);
+    border-color: var(--logo-color);
+    cursor: pointer;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway';
+    /* width: 145px; */
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    line-height: 1.9;
+    margin-left: 215px;
+}
+
+.web {
+    color: var(--logo-color);
+}
+
+.top-menu {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.top-menu ul {
+    display: flex;
+    padding-left: 93px;
+}
+
+.top-menu li {
+    margin-right: 46px;
+}
+
+.top-menu li:last-child {
+    margin-right: 0;
+}
+
+.header-div-flex {
+    display: flex;
+}
+
+.ul-address-nav {
+    display: flex;
+    margin-right: 227px;
+}
+
+.ul-address-nav li {
+    margin-right: 50px;
+}
+
+.ul-address-nav li:last-child {
+    margin-right: 0;
+}
+
+.contacts {
+    color: var(--contacts-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.filters {
+    background-color: var(--filters-bg-color);
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header-three {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--contacts-color);
+}
+
+.footer-section {
+    background-color: var(--footer-section);
+    color: var(--second-color);
+    padding-top: 60px;
+    font-style: normal;
+}
+
+address ul {
+    padding: 20px 0 60px 215px;
+    margin: 0;
+    font-style: normal;
+}
+
+.logo-footer {
+    padding-left: 215px;
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+.adres {
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+
+.email {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration-line: none;
+    color: var(--contacts-footer-color);
+}
+
+.tel {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--contacts-footer-color);
+    text-decoration: none;
+}
+
+.tel:hover,
+.email:hover,
+.adres:hover {
+    text-decoration: underline;
+}
+
+.button-index {
+    display: flex;
+    padding: 7px 38px;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--second-color);
+    background-color: var(--logo-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    border-color: var(--logo-color);
+    margin-left: 700px;
+    margin-right: 700px;
+    margin-bottom: 106px;
+}
+
+.header-first {
+    font-family: inherit;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--second-color);
+    margin: 106px 452px 30px;
+}
+
+.welcome {
+    background-color: var(--footer-section);
+}
+
+.header-third-index {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.paragraph-index {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--contacts-color);
+}
+
+.header-second-index {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team {
+    background: var(--filters-bg-color);
+}
+
+.header-third-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.paragraph-team {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--contacts-color);
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.card,
+.boxes,
+.team-list,
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+.card li {
+    flex-basis: calc((100% - 3 * 30px) / 4);
+}
+
+.boxes li {
+    flex-basis: calc((100% - 2 * 30px) / 3);
+}
+
+.team-list li {
+    flex-basis: calc((100% - 3 * 30px) / 4);
+}
+
+figure {
+    display: flex;
+    margin: 0;
+    background-color: var(--second-color);
+}
+
+.figure-index {
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.div-flex-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-left: 510px;
+    padding-right: 518px;
+}
+
+.div-flex-filters button {
+    flex-basis: calc((100% - 4 * 8px) / 5);
+}
+
+.filter figure img {
+    background-color: var(--border-color-portfolio);
+}
+
+.filter img {
+    display: block;
+}
+
+.filter p {
+    border-bottom: 1px solid;
+}
+
+.filter h3,
+.filter p {
+    margin: 0;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: var(--border-color-portfolio);
+}
