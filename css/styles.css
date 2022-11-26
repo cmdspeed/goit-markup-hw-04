@@ -105,6 +105,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    display: flex;
 }
 
 .filters {
@@ -336,4 +337,13 @@ figure {
     border-right: 1px solid;
     border-left: 1px solid;
     border-color: var(--border-color-portfolio);
+}
+
+.icon {
+    fill: var(--contacts-color);
+    margin-right: 10px;
+}
+
+.link:hover svg {
+    fill: var(--logo-color);
 }
