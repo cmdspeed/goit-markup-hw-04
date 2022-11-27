@@ -341,6 +341,9 @@ figure {
 
 .link.icon {
     fill: var(--contacts-color);
+}
+
+.icon {
     margin-right: 10px;
 }
 
@@ -352,4 +355,13 @@ figure {
     text-align: center;
     background-color: var(--filters-bg-color);
     padding: 25px 0;
+}
+
+.social-icon {
+    margin: 16px 32px 30px;
+}
+
+.social-icon svg {
+    padding: 12px;
+    margin-right: 0;
 }
