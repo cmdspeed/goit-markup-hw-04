@@ -339,11 +339,17 @@ figure {
     border-color: var(--border-color-portfolio);
 }
 
-.icon {
+.link.icon {
     fill: var(--contacts-color);
     margin-right: 10px;
 }
 
 .link:hover svg {
     fill: var(--logo-color);
+}
+
+.icon-container {
+    text-align: center;
+    background-color: var(--filters-bg-color);
+    padding: 25px 0;
 }
