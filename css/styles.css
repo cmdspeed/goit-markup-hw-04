@@ -8,6 +8,7 @@
     --second-color: #ffffff;
     --nav-border: 1px solid #ececec;
     --border-color-portfolio: #eeeeee;
+    --border-partner-logo: #afb1b8;
 }
 
 body {
@@ -141,6 +142,9 @@ ul {
     color: var(--second-color);
     padding-top: 60px;
     font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
 }
 
 address ul {
@@ -319,6 +323,18 @@ figure {
     flex-basis: calc((100% - 4 * 8px) / 5);
 }
 
+.icons-client {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 50px 215px 0;
+    padding-left: 0;
+}
+
+.icons-client li {
+    flex-basis: calc((100% - 5 * 30px) / 6);
+}
+
 .filter figure img {
     background-color: var(--border-color-portfolio);
 }
@@ -345,9 +361,11 @@ figure {
 
 .icon {
     margin-right: 10px;
+    fill: var(--contacts-color);
 }
 
-.link:hover svg {
+.link:hover svg,
+.link:focus svg {
     fill: var(--logo-color);
 }
 
@@ -364,4 +382,32 @@ figure {
 .social-icon svg {
     padding: 12px;
     margin-right: 0;
+    border-radius: 50%;
+}
+
+.icon-client {
+    text-align: center;
+    padding: 17.71px 32px 14.25px;
+    border: 1px solid var(--border-partner-logo);
+    border-radius: 4px;
+    fill: var(--border-partner-logo);
+}
+
+.icon-client:hover {
+    border: 1px solid var(--logo-color);
+    border-radius: 4px;
+    fill: var(--logo-color);
+}
+
+.icon-footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.header-social-footer {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--second-color);
 }
