@@ -19,7 +19,7 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 1200px;
+    max-width: 1200px;
 }
 
 .header-class {
@@ -28,6 +28,7 @@ body {
     border-bottom: var(--nav-border);
     justify-content: space-between;
     max-width: 1600px;
+    margin: auto;
 }
 
 .link {
@@ -90,6 +91,7 @@ body {
 
 .ul-address-nav {
     display: flex;
+    margin-right: 227px;
 }
 
 .ul-address-nav li {
@@ -146,6 +148,8 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 70px;
+    max-width: 1600px;
+    margin: auto;
 }
 
 address ul {
@@ -321,8 +325,6 @@ figure {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    padding-left: 510px;
-    padding-right: 518px;
 }
 
 .div-flex-filters button {
