@@ -12,13 +12,14 @@
 }
 
 body {
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     color: var(--main-text-color);
 }
 
 .container {
-    margin: auto;
-    width: 1600px;
+    margin: 0 auto;
+    width: 1200px;
 }
 
 .header-class {
@@ -26,6 +27,7 @@ body {
     align-items: center;
     border-bottom: var(--nav-border);
     justify-content: space-between;
+    max-width: 1600px;
 }
 
 .link {
@@ -88,7 +90,6 @@ body {
 
 .ul-address-nav {
     display: flex;
-    margin-right: 227px;
 }
 
 .ul-address-nav li {
@@ -210,9 +211,7 @@ address ul {
     border-radius: 4px;
     cursor: pointer;
     border-color: var(--logo-color);
-    margin-left: 700px;
-    margin-right: 700px;
-    margin-bottom: 106px;
+    margin: auto;
 }
 
 .header-first {
@@ -224,7 +223,10 @@ address ul {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--second-color);
-    margin: 106px 452px 30px;
+    /* margin: 106px 452px 30px; */
+    margin: auto;
+    width: 696px;
+    height: 120px;
 }
 
 .welcome {
@@ -232,6 +234,8 @@ address ul {
     background: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/photo.jpg') 100% 35%;
     background-size: cover;
     background-repeat: no-repeat;
+    max-width: 1600px;
+    margin: auto;
 }
 
 .header-third-index {
@@ -278,6 +282,7 @@ address ul {
 
 .section {
     padding: 94px 0;
+    /* width: 1600px; */
 }
 
 .card,
@@ -287,8 +292,7 @@ address ul {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-left: 215px;
-    padding-right: 215px;
+    padding-left: 0;
 }
 
 .card li {
@@ -329,7 +333,6 @@ figure {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin: 50px 215px 0;
     padding-left: 0;
 }
 
