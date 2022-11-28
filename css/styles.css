@@ -276,8 +276,7 @@ address ul {
 }
 
 .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding: 94px 0;
 }
 
 .card,
@@ -355,6 +354,10 @@ figure {
     border-right: 1px solid;
     border-left: 1px solid;
     border-color: var(--border-color-portfolio);
+}
+
+.filter figure:hover {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
 .link.icon {
