@@ -308,7 +308,7 @@ address ul {
 }
 
 .team-list li {
-    flex-basis: calc((100% - 3 * 30px) / 4);
+    flex-basis: calc((100% - 3 * 40px) / 4);
 }
 
 figure {
@@ -387,13 +387,30 @@ figure {
 }
 
 .social-icon {
-    margin: 16px 32px 30px;
+    display: flex;
+    margin: 16px 0 18px 32px;
+}
+
+.social-icon-footer .social-icon {
+    margin: 20px 0 0;
+}
+
+.single-social-icon {
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin-right: 10px;
 }
 
 .social-icon svg {
-    padding: 12px;
     margin-right: 0;
-    border-radius: 50%;
+}
+
+.social-icon div:last-child {
+    margin-right: 0;
 }
 
 .icon-client {
@@ -412,8 +429,6 @@ figure {
 
 .icon-footer {
     background-color: rgba(255, 255, 255, 0.1);
-    padding: 12px;
-    border-radius: 50%;
 }
 
 .header-social-footer {
