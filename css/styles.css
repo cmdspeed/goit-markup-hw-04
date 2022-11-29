@@ -12,7 +12,6 @@
 }
 
 body {
-    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     color: var(--main-text-color);
 }
@@ -121,6 +120,7 @@ body {
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
+    padding: 6px 0;
 }
 
 ul {
@@ -227,7 +227,6 @@ address ul {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--second-color);
-    /* margin: 106px 452px 30px; */
     margin: auto;
     width: 696px;
     height: 120px;
@@ -286,7 +285,6 @@ address ul {
 
 .section {
     padding: 94px 0;
-    /* width: 1600px; */
 }
 
 .card,
@@ -325,6 +323,8 @@ figure {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    max-width: 572px;
+    margin: auto;
 }
 
 .div-flex-filters button {
@@ -405,8 +405,24 @@ figure {
     margin-right: 10px;
 }
 
+.single-social-icon:hover {
+    background-color: var(--logo-color);
+    fill: var(--second-color);
+    cursor: pointer;
+}
+
 .social-icon svg {
     margin-right: 0;
+    fill: var(--border-partner-logo);
+}
+
+.single-social-icon:hover svg {
+    margin-right: 0;
+    fill: var(--second-color);
+}
+
+.icon-footer svg {
+    fill: var(--second-color);
 }
 
 .social-icon div:last-child {
